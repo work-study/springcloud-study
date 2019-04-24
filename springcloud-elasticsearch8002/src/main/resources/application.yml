@@ -1,0 +1,9 @@
+server:
+  port: 8002
+#自定义配置项
+elasticsearch-props:
+  cluster-name: springcloud-elasticsearch8002
+  scheme: http
+  cluster-nodes:
+    - 127.0.0.1: 9200
+

@@ -1,0 +1,12 @@
+server:
+ port: 3344
+spring:
+ application:
+   name: springcloud-config
+ cloud:
+  config:
+   server:
+    git:
+     uri: https://github.com/spingcode/springcloud-config-repo-test.git
+     username: 2269607500@qq.com
+     password: zw15162228650
